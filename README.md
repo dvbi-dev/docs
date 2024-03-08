@@ -7,3 +7,5 @@
 [Enable Hyper V if window not found](https://github.com/dvbi-dev/docs/blob/main/hyperV.txt)
 
 [Docker command](https://github.com/dvbi-dev/docs/blob/main/Docker%20commad.txt)
+
+[Kịch bản quy trình sản xuất chưa xong]
