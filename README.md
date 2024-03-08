@@ -12,4 +12,4 @@
 
 [Fastapi tutorial](https://www.youtube.com/watch?v=XnYYwcOfcn8&list=PLqAmigZvYxIL9dnYeZEhMoHcoP4zop8-p)
 
-[Kịch bản quy trình sản xuất chưa xong]
+[Kịch bản quy trình sản xuất đang nghiên cứu]
