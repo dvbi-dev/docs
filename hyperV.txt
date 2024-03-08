@@ -1,0 +1,3 @@
+bật hyper V cũng như install nó nếu máy win bạn ko có:
+đầu tiên download file này về ở link sau rồi giải nén: https://github.com/dvbi-dev/hyperV
+tiếp theo bật file vừa giải nén rồi cài đặt là xong
