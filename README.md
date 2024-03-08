@@ -8,4 +8,6 @@
 
 [Docker command](https://github.com/dvbi-dev/docs/blob/main/Docker%20commad.txt)
 
+[Node-red tutorial](https://www.youtube.com/@ruwindustries/playlists)
+
 [Kịch bản quy trình sản xuất chưa xong]
