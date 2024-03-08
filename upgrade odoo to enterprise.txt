@@ -1,0 +1,11 @@
+download wget https://www.soladrive.com/downloads/enterprise-15.0.tar.gz
+có thể bỏ wget và chạy khúc sau trên trình duyệt để down
+b2: giải nén ra
+b3: truy cập vào và kiếm folder web_enterprise ở đường dẫn như sau: odoo/addons/web_enterprise 
+b4: copy folder đó và chuyển sang folder addon và paste vào folder addon của odoo
+chạy lệnh python .\odoo-bin -c .\debian\odoo.conf -d odoo -i web_enterprise --stop-after-ini
+chạy xong thì chạy lại python .\odoo-bin -c .\debian\odoo.conf -d odoo -i web_enterprise
+rồi bật chương trình lên và update list lại xong rồi 
+tiến hành chạy lại  và kiếm module web_enterpise và install
+sau khi install xong thì hên thì sẽ chuyển sang version, xui thì install xong thì chạy lại thì nó sẽ ra.
+Còn nếu muốn xuống lại bản community thì chỉ cần uninstall cái module web_enterpise là được

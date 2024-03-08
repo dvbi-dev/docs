@@ -1,0 +1,24 @@
+Hướng dẫn cài thingsboard trên windows
+Download java11 tại trang chủ jdk:https://adoptium.net/
+hoặc chỗ nào cũng được, sau đó cài đặt vào
+Tiếp đến truy cập vào postgresql bằng pgadmin và tạo 1 data tên là thingsboard.
+Sau đó ta tiến hành truy cập: https://github.com/thingsboard/thingsboard/releases
+và download thingsboard về ở chỗ Assets tùy muốn chọn loại nào
+tiếp tục giải nén file thingsboard vừa down và bỏ nó vào C:\Program Files (x86)
+sau đó bật ở ở trong thư mục này lun và gõ "java -version" nếu muốn kiểm tra version vừa cài
+tiếp tục vào folder thingsboard bằng cd và gõ install.bat --loadDemo
+sẽ đc tạo
+cài đặt thành công thì ta tiến hành bật lên bằng net start thingsboard
+restart thì dùng 
+	net stop thingsboard
+	net start thingsboard
+
+đợi 1 khoảng thời gian thì vào http://localhost:8080/ 
+sẽ vào thingsboard
+các loại tài khoản sau có thể dùng:
+System Administrator: sysadmin@thingsboard.org / sysadmin
+Tenant Administrator: tenant@thingsboard.org / tenant
+Customer User: customer@thingsboard.org / customer
+
+ngoài ra có thể đọc thêm: https://thingsboard.io/docs/user-guide/install/windows/
+

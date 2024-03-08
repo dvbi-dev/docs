@@ -1,0 +1,34 @@
+để cài odoo thì ta cần cài thêm postgresql 
+có điều cần lưu ý là mỗi bản odoo sẽ phù hợp với mỗi phiền bản postgresql khác nhau
+ở đây thì khuyến khích xài odoo15 và postgresql12 còn muốn tìm hiểu thêm version thì google
+tiếp đến cài python, tương tự thì python cũng cần phù hợp vs version odoo
+ở đây thì cứ cài 3.7 đến 3.10
+sau khi cài postgresql vs python xong thì download luôn odoo15 ở git sau:
+https://github.com/Viindoo/odoo/tree/15.0
+clone về hoặc tải về giải nén ra tùy ý
+tiếp tục mở ide lên và folder odoo vừa tải và tiến hành tạo môi trường vs odoo bằng lệnh: python -version -m venv venv
+-version có thể tùy điều chỉnh như -3.7, -3.8
+sau đó truy cập vào môi trường bằng cd venv\Scripts\activate
+nếu gặp lỗi truy cập được thì cách khắc phục làm như video sau:
+https://www.youtube.com/watch?v=3r2Vne_9Tog
+hoặc search Activate python virtual environment là nó ra nhiều lắm
+xong rồi thì ấy lại lệnh trên và pip install -r requirements.txt
+trường hợp cài báo lỗi microsoft 14++ thì vào: https://visualstudio.microsoft.com/visual-cpp-build-tools/
+download và cài đặt desktop development with c++
+cài xong thì pip install -r requirements.txt lại để cài đặt thư viện cho odoo
+có thể xem thêm cách fix lôi này ở link: https://www.partitionwizard.com/partitionmanager/microsoft-visual-c-14-is-required.html
+cài xong thư viện rồi thì vào ./debian/odoo.conf
+ở đây thì cấu hình một số trường mặc định như sau:
+db_host = localhost
+http_port = 8090 hoặc tùy chỉnh
+db_user=odoo
+db_password = odoo
+db_port = 5432
+addons_path = thì bạn điền đường dẫn vào addon có trong folder của odoo được tải về 
+xong rồi thì chạy lệnh này python .\odoo-bin -c .\debian\odoo.conf và tiến hành đợi nó chạy thôi
+xong rồi thì truy cập localhost:port nãy cấu hình ở http_port
+sau đó vào tạo database vs điền tên data muốn tạo,user vs password của odoo lúc nó hiện màn hình và tạo thôi
+tạo xong thì vào chương trình thôi.
+à lưu ý db_user vs password được cấu hình ở odoo.conf là bạn phải tạo 1 user ở postgresql nha 
+
+
