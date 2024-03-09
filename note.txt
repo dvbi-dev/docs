@@ -1,0 +1,12 @@
+1. không hiển thị database mới tạo ở odoo mà chỉ hiển thị database ban đầu:
+lỗi này khá là hài nhưng chỉ cần thay localhost và sửa nó thành 127.0.0.1 là sẽ hiển thị ra thôi
+2. viết fastapi đang chạy ngon lành nhưng đột nhiên dùng lại hàm ko chạy được: 
+chỉ cần xóa sạch data ở trình duyệt là xong
+3. đột nhiên ko chạy được odoo hay fastapi dù đã tắt mở lại chương trình: restart lại win là xong
+4. không vào được server công ty: coi chừng quên bật vpn hoặc do server sập
+5. node-red hiển thị thông báo unsave màu vàng: kiếm và xóa cái hàm bị lỗi lúc mk làm là xong
+6. quên mật khẩu master odoo: cách hay dùng là ẩn cái add_path đi xong chạy lại thì odoo bắt điền lại master mới,
+nhưng một số máy vi diệu nó ko đc thì cứ xóa và cài lại là xong cho lẹ đỡ lòng vòng
+7. nhiều khi viết api bị lỗi thì dò cái cấu trúc bên schema truyền đúng chưa chứ đừng lòng google gì cho mệt
+8. trường hợp odoo báo lỗi dù database ms đc upload nhưng khi chạy update app thì nó bay màu thì cách đơn giản xóa lun cái module và cài lại mới khám phá ra ko bk có thể áp dụng rộng rãi k
+9. nhiều khi thấy odoo người ta nhiều data mà mk ko có thì để ý lúc tạo data cs cái demo data cái này nhiều lúc làm lú nên quên mất tiêu chỉ cần tạo lại cái khác r tích cái demo data là được
