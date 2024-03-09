@@ -12,4 +12,6 @@
 
 [Fastapi tutorial](https://www.youtube.com/watch?v=XnYYwcOfcn8&list=PLqAmigZvYxIL9dnYeZEhMoHcoP4zop8-p)
 
+[Một số lỗi thường gặp và các lưu ý](https://github.com/dvbi-dev/docs/blob/main/note.txt)
+
 [Kịch bản quy trình sản xuất đang nghiên cứu]
