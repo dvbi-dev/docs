@@ -5,3 +5,12 @@ kho nguyên vật liệu không đủ để sản xuất theo số lượng trê
 <p>Tại bộ phận gia công, các đơn vị sản xuất tiến hành may các bán thành phẩm (đế giày và thân giày). 
 Sau đó, bán thành phẩm được chuyển sang giai đoạn lắp rắp. Sau khi lắp ráp, thành 
 phẩm được lưu kho và tiến hành xuất hàng giao cho phía khách hàng.</p>
+
+<p>Ví dụ nguyên liệu để làm ra đôi giày sẽ như sau: </p>
+<table>
+ <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+</table>
