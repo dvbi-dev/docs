@@ -8,6 +8,7 @@ phẩm được lưu kho và tiến hành xuất hàng giao cho phía khách hà
 
 <p>Ví dụ nguyên liệu để làm ra đôi giày sẽ như sau: </p>
 <table>
+ <tr></tr>
  <tr>
     <td>Alfreds Futterkiste</td>
     <td>Maria Anders</td>
