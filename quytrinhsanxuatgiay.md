@@ -8,10 +8,17 @@ phẩm được lưu kho và tiến hành xuất hàng giao cho phía khách hà
 
 <p>Ví dụ nguyên liệu để làm ra đôi giày sẽ như sau: </p>
 <table>
- <tr></tr>
  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>4 cuộn chỉ để may</td>
+  </tr>
+  <tr>
+    <td>1kg hạt nhựa EVA </td>
+  </tr>
+ <tr>
+    <td>2kg nhựa TPU </td>
+  </tr>
+  <tr>
+    <td>3m vải  </td>
   </tr>
 </table>
+<p>Biểu đồ quy trình hoạt động:</p>
