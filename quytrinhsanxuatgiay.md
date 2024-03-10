@@ -22,4 +22,6 @@ phẩm được lưu kho và tiến hành xuất hàng giao cho phía khách hà
   </tr>
 </table>
 <p>Biểu đồ quy trình hoạt động:</p>
-![sanxuatgiay](https://github.com/dvbi-dev/docs/assets/122905496/11ca5493-5b3f-49cc-b636-5bc0d341deb9)
+<p align="center">
+  <img src="https://github.com/dvbi-dev/docs/blob/main/sanxuatgiay.png)" width="350" alt="accessibility text">
+</p>
