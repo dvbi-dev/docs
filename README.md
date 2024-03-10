@@ -15,3 +15,4 @@
 [Một số lỗi thường gặp và các lưu ý](https://github.com/dvbi-dev/docs/blob/main/note.txt)
 
 [Kịch bản quy trình sản xuất đang nghiên cứu]
+![anhmotaquytrinh](sanxuatgiay.png)
